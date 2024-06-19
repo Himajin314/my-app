@@ -1,0 +1,7 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-left: auto;
+  padding-right: auto;
+}

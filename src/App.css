@@ -1,5 +1,17 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.header-container {
+  width: 80%;
 }
 
 .App-logo {
@@ -35,4 +47,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.submit-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between; 
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  
+}
+
+.menu-items {
+  list-style: none;
 }
